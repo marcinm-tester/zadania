@@ -8,7 +8,6 @@ namespace Zadanie2
         {
             decimal podatek;    
             decimal dochod;
-            Console.WriteLine("Hello World!");
 
             Helper helper = new Helper();
             dochod = helper.FirstPrompt();

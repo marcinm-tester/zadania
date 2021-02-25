@@ -17,7 +17,7 @@ namespace Zadanie1
 
                return Int32.Parse(stringNumber);
             }
-            catch (Exception exp){
+            catch {
                 Console.WriteLine("Niepoprawna liczba. Spróbuj jeszcze raz!");
                 return 0;
             }
